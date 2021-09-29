@@ -1,6 +1,6 @@
 {
   "homepage": "http://gitname.github.io/Restaurant",
-  "name": "react_practice",
+  "name": "restaurant",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

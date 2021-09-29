@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f64a31ab7c58f6f42f318af43ce66f5",
+    "revision": "87c8334f5746dc2fb486072f4c606c22",
     "url": "/Restaurant/index.html"
   },
   {
-    "revision": "b3e97277335887ec9599",
+    "revision": "2dccf364260592f4b137",
     "url": "/Restaurant/static/css/2.fb230578.chunk.css"
   },
   {
-    "revision": "889754f0c9129c606288",
+    "revision": "61e5df2101d0f306b9d8",
     "url": "/Restaurant/static/css/main.77c8a1e1.chunk.css"
   },
   {
-    "revision": "b3e97277335887ec9599",
-    "url": "/Restaurant/static/js/2.3cd19f93.chunk.js"
+    "revision": "2dccf364260592f4b137",
+    "url": "/Restaurant/static/js/2.5c2bc471.chunk.js"
   },
   {
     "revision": "0ccb586afcc8a01ad897e0b6d4e55d4a",
-    "url": "/Restaurant/static/js/2.3cd19f93.chunk.js.LICENSE.txt"
+    "url": "/Restaurant/static/js/2.5c2bc471.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "889754f0c9129c606288",
-    "url": "/Restaurant/static/js/main.57085e56.chunk.js"
+    "revision": "61e5df2101d0f306b9d8",
+    "url": "/Restaurant/static/js/main.5bffae20.chunk.js"
   },
   {
     "revision": "e2eb9b688eec6448e736",

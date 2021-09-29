@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Restaurant/static/css/main.77c8a1e1.chunk.css",
-    "main.js": "/Restaurant/static/js/main.57085e56.chunk.js",
-    "main.js.map": "/Restaurant/static/js/main.57085e56.chunk.js.map",
+    "main.js": "/Restaurant/static/js/main.5bffae20.chunk.js",
+    "main.js.map": "/Restaurant/static/js/main.5bffae20.chunk.js.map",
     "runtime-main.js": "/Restaurant/static/js/runtime-main.dbfa80fd.js",
     "runtime-main.js.map": "/Restaurant/static/js/runtime-main.dbfa80fd.js.map",
     "static/css/2.fb230578.chunk.css": "/Restaurant/static/css/2.fb230578.chunk.css",
-    "static/js/2.3cd19f93.chunk.js": "/Restaurant/static/js/2.3cd19f93.chunk.js",
-    "static/js/2.3cd19f93.chunk.js.map": "/Restaurant/static/js/2.3cd19f93.chunk.js.map",
+    "static/js/2.5c2bc471.chunk.js": "/Restaurant/static/js/2.5c2bc471.chunk.js",
+    "static/js/2.5c2bc471.chunk.js.map": "/Restaurant/static/js/2.5c2bc471.chunk.js.map",
     "index.html": "/Restaurant/index.html",
-    "precache-manifest.3db5458e3d23db0914922ea6b395ae11.js": "/Restaurant/precache-manifest.3db5458e3d23db0914922ea6b395ae11.js",
+    "precache-manifest.3edc16e154619f3727ae2febf679c7df.js": "/Restaurant/precache-manifest.3edc16e154619f3727ae2febf679c7df.js",
     "service-worker.js": "/Restaurant/service-worker.js",
     "static/css/2.fb230578.chunk.css.map": "/Restaurant/static/css/2.fb230578.chunk.css.map",
     "static/css/main.77c8a1e1.chunk.css.map": "/Restaurant/static/css/main.77c8a1e1.chunk.css.map",
-    "static/js/2.3cd19f93.chunk.js.LICENSE.txt": "/Restaurant/static/js/2.3cd19f93.chunk.js.LICENSE.txt",
+    "static/js/2.5c2bc471.chunk.js.LICENSE.txt": "/Restaurant/static/js/2.5c2bc471.chunk.js.LICENSE.txt",
     "static/media/breakfast.jpg": "/Restaurant/static/media/breakfast.27e43d32.jpg",
     "static/media/desktop.ini": "/Restaurant/static/media/desktop.44d24281.ini",
     "static/media/dinner.png": "/Restaurant/static/media/dinner.862fd5c7.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.dbfa80fd.js",
     "static/css/2.fb230578.chunk.css",
-    "static/js/2.3cd19f93.chunk.js",
+    "static/js/2.5c2bc471.chunk.js",
     "static/css/main.77c8a1e1.chunk.css",
-    "static/js/main.57085e56.chunk.js"
+    "static/js/main.5bffae20.chunk.js"
   ]
 }

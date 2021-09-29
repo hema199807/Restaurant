@@ -90,7 +90,7 @@ class Header extends React.Component{
         
         axios({
             method:'POST',
-            url:'http://localhost:300/signup',
+            url:'https://foodproductapp.herokuapp.com/signup',
             headers:{'Content-Type':'application/json'},
             data:obj
         })
@@ -135,7 +135,7 @@ class Header extends React.Component{
         
         axios({
             method:"POST",
-            url:'http://localhost:300/login',
+            url:'https://foodproductapp.herokuapp.com/login',
             headers:{'Content-Type':'application/json'},
             data:obj
         })
@@ -160,7 +160,7 @@ class Header extends React.Component{
        
         axios({
             method:'GET',
-            url:`http://localhost:300/getorders/${email}`,
+            url:`https://foodproductapp.herokuapp.com/getorders/${email}`,
             headers:{'Content-Type':'aplication/json'}
         })
         .then(response=>{
@@ -177,7 +177,7 @@ class Header extends React.Component{
 
         axios({
             method:'DELETE',
-            url:`http://localhost:300/deleteorderbyid/${id}`,
+            url:`https://foodproductapp.herokuapp.com/deleteorderbyid/${id}`,
             headers:{'Content-Type':'aplication/json'}
         })
         let order=orders

@@ -75,7 +75,7 @@ class SaveOrder extends React.Component{
         
         axios({
             method:'POST',
-            url:'http://localhost:300/signup',
+            url:'https://foodproductapp.herokuapp.com/signup',
             headers:{'Content-Type':'application/json'},
             data:obj
         })
@@ -120,7 +120,7 @@ class SaveOrder extends React.Component{
         
         axios({
             method:"POST",
-            url:'http://localhost:300/login',
+            url:'https://foodproductapp.herokuapp.com/login',
             headers:{'Content-Type':'application/json'},
             data:obj
         })
@@ -173,7 +173,7 @@ class SaveOrder extends React.Component{
         if((isLoggedIno==true)||(sessionStorage.getItem('isLoggedIn'))){
             axios({
                 method:'POST',
-                url:'http://localhost:300/saveorderdetails',
+                url:'https://foodproductapp.herokuapp.com/saveorderdetails',
                 headers:{'Content-Type':'application/json'},
                 data:obj
             })

@@ -17,7 +17,7 @@ class Home extends React.Component{
         sessionStorage.setItem('city',undefined);
         axios({
             method:'GET',
-            url:'http://localhost:300/location',
+            url:'https://foodproductapp.herokuapp.com/location',
             headers:{'Content-Type':'aplication/json'}
         })
         .then(response=>{
@@ -28,7 +28,7 @@ class Home extends React.Component{
 
         axios({
             method:'GET',
-            url:'http://localhost:300/mealtype',
+            url:'https://foodproductapp.herokuapp.com/mealtype',
             headers:{'Content-Type':'aplication/json'}
         })
         .then(response=>{

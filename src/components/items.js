@@ -46,7 +46,7 @@ class Orderitems extends React.Component{
         const restid=id;
         axios({
                 method:'GET',
-                url:`http://localhost:300/getitemsbyrestaurantid/${restid}`,
+                url:`https://foodproductapp.herokuapp.com/getitemsbyrestaurantid/${restid}`,
                 headers:{'Content-Type':'aplication/json'}
         })
         .then(response=>{

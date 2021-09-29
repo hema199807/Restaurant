@@ -36,7 +36,7 @@ class Search extends React.Component{
        };
        axios({
             method:'Post',
-            url:' http://localhost:300/filterdata',
+            url:' https://foodproductapp.herokuapp.com/filterdata',
             headers:{'Content-Type':'application/json'},
             data:filterobj
        }).then(res=>this.setState({restaurants:res.data.restaurant,pagecount:res.data.pageCount,mealtype:Number(mealtypes),location_id:Number(locationid)}))
@@ -44,7 +44,7 @@ class Search extends React.Component{
       
        axios({
             method:'GET',
-            url:' http://localhost:300/location',
+            url:' https://foodproductapp.herokuapp.com/location',
             headers:{'Content-Type':'application/json'},
        }).then(res=>this.setState({location:res.data.locationlist}))
          .catch(err=>console.log(err))
@@ -69,7 +69,7 @@ class Search extends React.Component{
         this.props.history.push(`/search/?area=${area}&mealtype=${mealtype}&cuisine=${cuisine}&costlessthan=${hcost}&costgreaterthan=${lcost}&sort=${sort}&page=${page}`)
         axios({
             method:'Post',
-            url:' http://localhost:300/filterdata',
+            url:' https://foodproductapp.herokuapp.com/filterdata',
             headers:{'Content-Type':'application/json'},
             data:filterobj
        }).then(res=>this.setState({restaurants:res.data.restaurant,pagecount:res.data.pageCount,location_id:Number(area)}))
@@ -98,7 +98,7 @@ class Search extends React.Component{
         this.props.history.push(`/search/?area=${location_id}&mealtype=${mealtype}&cuisine=${cuisine}&costlessthan=${hcost}&costgreaterthan=${lcost}&sort=${sort}&page=${page}`)
         axios({
             method:'Post',
-            url:' http://localhost:300/filterdata',
+            url:' https://foodproductapp.herokuapp.com/filterdata',
             headers:{'Content-Type':'application/json'},
             data:filterobj
        }).then(res=>this.setState({restaurants:res.data.restaurant,pagecount:res.data.pageCount,cuisine:cuisine}))
@@ -119,7 +119,7 @@ class Search extends React.Component{
            this.props.history.push(`/search/?area=${location_id}&mealtype=${mealtype}&cuisine=${cuisine}&costlessthan=${hcost}&costgreaterthan=${lcost}&sort=${sort}&page=${page}`)
            axios({
                 method:'Post',
-                url:' http://localhost:300/filterdata',
+                url:' https://foodproductapp.herokuapp.com/filterdata',
                 headers:{'Content-Type':'application/json'},
                 data:filterobj
            }).then(res=>this.setState({restaurants:res.data.restaurant,pagecount:res.data.pageCount,sort:Number(sort)}))
@@ -139,7 +139,7 @@ class Search extends React.Component{
            this.props.history.push(`/search/?area=${location_id}&mealtype=${mealtype}&cuisine=${cuisine}&costlessthan=${hcost}&costgreaterthan=${lcost}&sort=${sort}&page=${page}`)
            axios({
                 method:'Post',
-                url:' http://localhost:300/filterdata',
+                url:' https://foodproductapp.herokuapp.com/filterdata',
                 headers:{'Content-Type':'application/json'},
                 data:filterobj
            }).then(res=>this.setState({restaurants:res.data.restaurant,pagecount:res.data.pageCount,lcost:Number(lcost),hcost:Number(hcost)}))
@@ -160,7 +160,7 @@ class Search extends React.Component{
            this.props.history.push(`/search/?area=${location_id}&mealtype=${mealtype}&cuisine=${cuisine}&costlessthan=${hcost}&costgreaterthan=${lcost}&sort=${sort}&page=${page}`)
            axios({
                 method:'Post',
-                url:' http://localhost:300/filterdata',
+                url:' https://foodproductapp.herokuapp.com/filterdata',
                 headers:{'Content-Type':'application/json'},
                 data:filterobj
            }).then(res=>this.setState({restaurants:res.data.restaurant,pagecount:res.data.pageCount,page:page}))

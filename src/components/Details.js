@@ -45,7 +45,7 @@ class Details extends React.Component{
         const restid=queryParams.restaurantid;
         axios({
            method:'GET',
-           url:'http://localhost:300/restaurantbyid/'+restid,
+           url:'https://foodproductapp.herokuapp.com/restaurantbyid/'+restid,
            headers:{'Content-Type':'application/json'}
         }).then(response=>{
             this.setState({restaurant:response.data.restaurantlistbyid})
